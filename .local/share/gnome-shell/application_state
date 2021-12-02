@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.Nautilus.desktop" score="110" last-seen="1638437040"/>
+    <application id="org.gnome.Nautilus.desktop" score="110" last-seen="1638442440"/>
     <application id="gnome-initial-setup.desktop" score="2" last-seen="1638360551"/>
-    <application id="firefox.desktop" score="355" last-seen="1638436921"/>
-    <application id="org.gnome.Terminal.desktop" score="412" last-seen="1638436998"/>
+    <application id="firefox.desktop" score="462" last-seen="1638442974"/>
+    <application id="org.gnome.Terminal.desktop" score="524" last-seen="1638442443"/>
     <application id="org.gnome.gedit.desktop" score="0" last-seen="1638433454"/>
-    <application id="code.desktop" score="160" last-seen="1638434671"/>
+    <application id="code.desktop" score="764" last-seen="1638442970"/>
     <application id="shotwell.desktop" score="0" last-seen="1638362459"/>
     <application id="gnome-control-center.desktop" score="6" last-seen="1638436185"/>
     <application id="rhythmbox.desktop" score="0" last-seen="1638431912"/>
