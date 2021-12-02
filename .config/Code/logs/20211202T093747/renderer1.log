@@ -16,3 +16,25 @@
 [2021-12-02 09:39:43.979] [renderer1] [info] Extension host with pid 9314 exited with code: 0, signal: null.
 [2021-12-02 09:39:44.296] [renderer1] [error] [Extension Host] (node:9490) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
 (Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-02 10:46:33.341] [renderer1] [error] spawn git ENOENT
+[2021-12-02 10:46:41.379] [renderer1] [error] TreeError [FileExplorer] Data tree node not found: ExplorerItem: : Error: TreeError [FileExplorer] Data tree node not found: ExplorerItem: 
+    at j.getDataNode (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:184:19819)
+    at j.reveal (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:184:19409)
+    at _s.setEditable (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2660:61083)
+    at async qa.setEditable (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1919:33540)
+    at async ve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2660:11375)
+    at async handler (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2660:11599)
+[2021-12-02 10:46:43.296] [renderer1] [error] TreeError [FileExplorer] Data tree node not found: ExplorerItem: : Error: TreeError [FileExplorer] Data tree node not found: ExplorerItem: 
+    at j.getDataNode (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:184:19819)
+    at j.reveal (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:184:19409)
+    at _s.setEditable (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2660:61083)
+    at async qa.setEditable (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1919:33540)
+    at async ve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2660:11375)
+    at async handler (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2660:11599)
+[2021-12-02 10:46:43.795] [renderer1] [error] TreeError [FileExplorer] Data tree node not found: ExplorerItem: : Error: TreeError [FileExplorer] Data tree node not found: ExplorerItem: 
+    at j.getDataNode (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:184:19819)
+    at j.reveal (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:184:19409)
+    at _s.setEditable (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2660:61083)
+    at async qa.setEditable (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1919:33540)
+    at async ve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2660:11375)
+    at async handler (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2660:11700)

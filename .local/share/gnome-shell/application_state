@@ -3,8 +3,13 @@
   <context id="">
     <application id="org.gnome.Nautilus.desktop" score="110" last-seen="1638443440"/>
     <application id="gnome-initial-setup.desktop" score="2" last-seen="1638360551"/>
+<<<<<<< HEAD
     <application id="firefox.desktop" score="479" last-seen="1638443791"/>
     <application id="org.gnome.Terminal.desktop" score="568" last-seen="1638443790"/>
+=======
+    <application id="firefox.desktop" score="473" last-seen="1638443613"/>
+    <application id="org.gnome.Terminal.desktop" score="551" last-seen="1638443591"/>
+>>>>>>> miguel
     <application id="org.gnome.gedit.desktop" score="0" last-seen="1638433454"/>
     <application id="code.desktop" score="815" last-seen="1638443333"/>
     <application id="shotwell.desktop" score="0" last-seen="1638362459"/>
