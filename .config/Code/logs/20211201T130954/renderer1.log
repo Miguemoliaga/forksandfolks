@@ -1,0 +1,13 @@
+[2021-12-01 13:09:58.017] [renderer1] [info] Starting extension host with pid 101841.
+[2021-12-01 13:09:58.021] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 34 ms.
+[2021-12-01 13:10:00.088] [renderer1] [error] [Extension Host] (node:101841) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-01 13:10:10.666] [renderer1] [info] Starting extension host with pid 101947.
+[2021-12-01 13:10:10.667] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 100 ms.
+[2021-12-01 13:10:12.352] [renderer1] [error] [Extension Host] (node:101947) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-01 13:54:07.763] [renderer1] [error] Failed to execute git
+[2021-12-01 13:54:20.144] [renderer1] [warning] {}
+[2021-12-01 13:54:21.352] [renderer1] [info] Enabling inspect port on extension host with pid 101947.
+[2021-12-01 13:54:38.884] [renderer1] [error] Failed to execute git
+[2021-12-01 13:54:56.410] [renderer1] [error] Failed to execute git

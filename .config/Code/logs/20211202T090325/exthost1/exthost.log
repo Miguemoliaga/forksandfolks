@@ -1,0 +1,30 @@
+[2021-12-02 09:03:29.078] [exthost] [info] Extension host with pid 6186 started
+[2021-12-02 09:03:29.078] [exthost] [info] Skipping acquiring lock for /opt/odoo/.config/Code/User/workspaceStorage/aea799b9ee42794704c90b33fc525340.
+[2021-12-02 09:03:29.333] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-02 09:03:29.366] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-02 09:03:29.397] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-02 09:03:30.236] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-02 09:03:30.583] [exthost] [info] Eager extensions activated
+[2021-12-02 09:03:30.784] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-02 09:03:31.504] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2021-12-02 09:03:40.149] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-02 09:03:53.606] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2021-12-02 09:04:27.938] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-02 09:04:27.963] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-02 09:04:28.435] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2021-12-02 09:25:08.347] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-02 09:25:09.380] [exthost] [info] Extension host with pid 6186 exiting with code 0
+[2021-12-02 09:25:11.659] [exthost] [info] Extension host with pid 8002 started
+[2021-12-02 09:25:11.660] [exthost] [info] Skipping acquiring lock for /opt/odoo/.config/Code/User/workspaceStorage/9051809c1a2308b5e6b9e6b1ec1814cc.
+[2021-12-02 09:25:11.930] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-02 09:25:11.948] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-02 09:25:11.965] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-02 09:25:13.017] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-02 09:25:13.051] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-02 09:25:13.087] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-02 09:25:13.557] [exthost] [info] Eager extensions activated
+[2021-12-02 09:25:13.665] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-02 09:25:14.108] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-02 09:25:14.461] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2021-12-02 09:35:25.149] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-02 09:35:26.154] [exthost] [info] Extension host with pid 8002 exiting with code 0

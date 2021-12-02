@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "/opt/odoo/dam"
+		},
+		{
+			"name": "ProyectoEmpresa",
+			"path": "/opt/odoo/dam/ProyectoEmpresa"
+		}
+	],
+	"settings": {}
+}

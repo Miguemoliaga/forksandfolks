@@ -1,0 +1,16 @@
+[2021-12-01 13:56:01.317] [exthost] [info] Extension host with pid 104356 started
+[2021-12-01 13:56:01.317] [exthost] [info] Skipping acquiring lock for /opt/odoo/.config/Code/User/workspaceStorage/aea799b9ee42794704c90b33fc525340.
+[2021-12-01 13:56:01.945] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-01 13:56:01.997] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-01 13:56:02.054] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-01 13:56:02.157] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-01 13:56:02.170] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-01 13:56:04.106] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2021-12-01 13:56:11.372] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-01 13:56:13.990] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2021-12-01 13:56:13.997] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 13:56:14.036] [exthost] [info] Eager extensions activated
+[2021-12-01 13:56:14.706] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-01 13:58:28.276] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2021-12-01 14:00:29.339] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-01 14:00:30.358] [exthost] [info] Extension host with pid 104356 exiting with code 0

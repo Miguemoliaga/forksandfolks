@@ -1,0 +1,10 @@
+[2021-12-02 09:03:27.226] [renderer1] [info] Starting extension host with pid 6186.
+[2021-12-02 09:03:27.230] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 146 ms.
+[2021-12-02 09:03:28.802] [renderer1] [error] [Extension Host] (node:6186) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-02 09:03:33.905] [renderer1] [info] Enabling inspect port on extension host with pid 6186.
+[2021-12-02 09:03:40.343] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.git' took 47% of 5701.393ms, saved PROFILE here: 'file:///tmp/exthost-2287a6.cpuprofile' [{"id":"gc","total":105735,"percentage":2},{"id":"program","total":2266420,"percentage":40},{"id":"self","total":626066,"percentage":11},{"id":"vscode.git","total":2693558,"percentage":47},{"id":"vscode.merge-conflict","total":8851,"percentage":0}]
+[2021-12-02 09:25:09.875] [renderer1] [info] Starting extension host with pid 8002.
+[2021-12-02 09:25:09.876] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 98 ms.
+[2021-12-02 09:25:11.346] [renderer1] [error] [Extension Host] (node:8002) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)

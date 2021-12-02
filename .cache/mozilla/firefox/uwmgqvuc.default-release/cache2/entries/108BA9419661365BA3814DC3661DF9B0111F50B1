@@ -1,0 +1,694 @@
+
+  <!DOCTYPE html>
+        
+        
+            
+        
+    <html lang="es-ES" data-website-id="1" data-editable="1" data-view-xmlid="website.carta" data-viewid="2110" data-main-object="website.page(16,)" data-oe-company-name="My Company">
+            
+        
+            
+                
+            
+            
+            
+            
+                
+            
+        
+        
+    <head>
+                <meta charset="utf-8"/>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        <meta name="generator" content="Odoo"/>
+        
+        <meta name="default_title" content=" Carta | Forks&amp;Folks "/>
+        
+            
+            
+            
+        <meta name="description"/>
+        <meta name="keywords"/>
+        
+            <meta name="default_description"/>
+            
+            
+                
+                    
+                        <meta property="og:type" content="website"/>
+                    
+                
+                    
+                        <meta property="og:title" content="Carta | Forks&amp;Folks"/>
+                    
+                
+                    
+                        <meta property="og:site_name" content="My Company"/>
+                    
+                
+                    
+                        <meta property="og:url" content="http://localhost:8069/carta"/>
+                    
+                
+                    
+                        <meta property="og:image" content="http://localhost:8069/web/image/website/1/logo?unique=3cd6994"/>
+                    
+                
+            
+            
+            
+                
+                    <meta name="twitter:card" content="summary_large_image"/>
+                
+                    <meta name="twitter:title" content="Carta | Forks&amp;Folks"/>
+                
+                    <meta name="twitter:image" content="http://localhost:8069/web/image/website/1/logo?unique=3cd6994"/>
+                
+            
+        
+
+        
+            
+            
+                <link rel="alternate" hreflang="en" href="http://localhost:8069/en/carta"/>
+            
+                <link rel="alternate" hreflang="es" href="http://localhost:8069/carta"/>
+            
+                <link rel="alternate" hreflang="x-default" href="http://localhost:8069/carta"/>
+            
+        
+        <link rel="canonical" href="http://localhost:8069/carta"/>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+    
+        
+
+                <title> Carta | Forks&amp;Folks </title>
+                <link type="image/x-icon" rel="shortcut icon" href="/web/image/website/1/favicon?unique=3cd6994"/>
+            <link rel="preload" href="/web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
+            <link type="text/css" rel="stylesheet" href="/web/content/738-50220a3/1/web.assets_common.css" data-asset-xmlid="web.assets_common" data-asset-version="50220a3"/>
+            <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&amp;family=Satisfy&amp;display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap" rel="stylesheet"/>
+            <link type="text/css" rel="stylesheet" href="/web/content/739-ff0c78c/1/web.assets_frontend.css" data-asset-xmlid="web.assets_frontend" data-asset-version="ff0c78c"/>
+        <link type="text/css" rel="stylesheet" href="/web/content/740-e548d7a/1/website.assets_editor.css" data-asset-xmlid="website.assets_editor" data-asset-version="e548d7a"/>
+    
+        
+
+                <script id="web.layout.odooscript" type="text/javascript">
+                    var odoo = {
+                        csrf_token: "156683a200102dc892196f3a46cc070e47b4954bo1669898579",
+                        debug: "",
+                    };
+                </script>
+            <script type="text/javascript">
+                odoo.session_info = {"is_admin": true, "is_system": true, "is_website_user": false, "user_id": 2, "is_frontend": true, "server_version": "14.0", "server_version_info": [14, 0, 0, "final", 0, ""], "translationURL": "/website/translations", "cache_hashes": {"translations": "9a17a8ad1079aca5593c8e2e5b524ac1718a675f"}, "website_id": 1, "website_company_id": 1};
+                if (!/(^|;\s)tz=/.test(document.cookie)) {
+                    const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                    document.cookie = `tz=${userTZ}; path=/`;
+                }
+            </script>
+            <script defer="defer" type="text/javascript" src="/web/content/210-548815e/1/web.assets_common_minimal_js.js" data-asset-xmlid="web.assets_common_minimal_js" data-asset-version="548815e"></script>
+            <script defer="defer" type="text/javascript" src="/web/content/211-61ecd2e/1/web.assets_frontend_minimal_js.js" data-asset-xmlid="web.assets_frontend_minimal_js" data-asset-version="61ecd2e"></script>
+            
+        
+    
+            <script defer="defer" type="text/javascript" data-src="/web/content/708-59d2bff/1/web.assets_common_lazy.js" data-asset-xmlid="web.assets_common_lazy" data-asset-version="59d2bff"></script>
+            <script defer="defer" type="text/javascript" data-src="/web/content/741-c9f9f92/1/web.assets_frontend_lazy.js" data-asset-xmlid="web.assets_frontend_lazy" data-asset-version="c9f9f92"></script>
+        <script defer="defer" type="text/javascript" data-src="/web/content/742-e548d7a/1/website.assets_editor.js" data-asset-xmlid="website.assets_editor" data-asset-version="e548d7a"></script>
+    
+        
+
+                
+            
+        
+    </head>
+            <body class=" o_connected_user">
+                
+        
+            
+                <input type="hidden" class="o_page_option_data" data-oe-model="ir.ui.view" data-oe-id="1295" data-oe-field="arch" data-oe-xpath="/data/xpath[11]/t/t[1]/input[1]" name="header_overlay"/>
+            
+                <input type="hidden" class="o_page_option_data" data-oe-model="ir.ui.view" data-oe-id="1295" data-oe-field="arch" data-oe-xpath="/data/xpath[11]/t/t[1]/input[1]" name="header_color"/>
+            
+                <input type="hidden" class="o_page_option_data" data-oe-model="ir.ui.view" data-oe-id="1295" data-oe-field="arch" data-oe-xpath="/data/xpath[11]/t/t[1]/input[1]" name="header_visible" value="True"/>
+            
+                <input type="hidden" class="o_page_option_data" data-oe-model="ir.ui.view" data-oe-id="1295" data-oe-field="arch" data-oe-xpath="/data/xpath[11]/t/t[1]/input[1]" name="footer_visible" value="True"/>
+            
+        
+    
+            
+            <nav id="oe_main_menu_navbar" class="o_main_navbar">
+                <ul id="oe_applications" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[1]">
+                    <li class="dropdown active">
+                        <a class="dropdown-toggle full" data-toggle="dropdown" href="#" accesskey="h">
+                            <i class="fa fa-th-large"></i> SITIO WEB
+                        </a>
+                        <div class="dropdown-menu" role="menu">
+                            </div>
+                    </li>
+                </ul>
+
+                <button type="button" class="fa fa-bars float-right d-block d-md-none o_mobile_menu_toggle" aria-label="Menú" title="Menú" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/button[1]"></button>
+
+                <ul class="o_menu_sections">
+                    <li class="dropdown" id="content-menu">
+                        <a id="content-menu-button" class="dropdown-toggle o-no-caret waves" data-toggle="dropdown" data-display="static" href="#" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[2]/li[1]/a[1]">Páginas</a>
+                        <div class="dropdown-menu" role="menu">
+                            <a role="menuitem" data-action="edit_menu" href="#" title="Editar menú superior" class="dropdown-item" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[2]/li[1]/div[1]/a[1]">Editar menú</a>
+                            <a role="menuitem" href="/website/pages" title="Administrar sus páginas del sitio web" class="dropdown-item" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[2]/li[1]/div[1]/a[2]">Administrar páginas</a>
+                            <div role="separator" class="dropdown-divider" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[2]/li[1]/div[1]/div[1]"></div>
+                            <a role="menuitem" href="#" data-action="page_properties" class="dropdown-item" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[2]/li[1]/div[1]/a[3]">Propiedades de la página</a>
+                        </div>
+                    </li>
+                    <li class="dropdown" id="customize-menu" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[2]/li[2]">
+                        <a class="dropdown-toggle o-no-caret waves" data-toggle="dropdown" data-display="static" href="#">Personalizar</a>
+                        <div class="dropdown-menu" role="menu">
+                            <a role="menuitem" href="#" data-action="ace" class="dropdown-item" id="html_editor">Editor de HTML/CSS/JS</a>
+                            <a role="menuitem" href="/web#action=website.action_website_add_features" class="dropdown-item" id="install_apps">Añadir características</a>
+                        </div>
+                    </li>
+                    <li class="dropdown" id="promote-menu" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[2]/li[3]">
+                        <a class="dropdown-toggle o-no-caret waves" data-toggle="dropdown" data-display="static" href="#">Promover</a>
+                        <div class="dropdown-menu oe_promote_menu" role="menu">
+                            <a role="menuitem" data-action="promote-current-page" href="#" title="Promover página en la web" class="dropdown-item">Optimizar SEO</a>
+                        </div>
+                    </li>
+                    
+        
+            <li class="js_publish_management d-block d-sm-block d-md-none css_published" data-description="Página" data-id="16" data-object="website.page">
+                <label class="o_switch o_switch_danger js_publish_btn">
+                    <input type="checkbox" data-oe-model="ir.ui.view" data-oe-id="1405" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/li[1]/label[1]/input[1]" checked="True"/>
+                    <span data-oe-model="ir.ui.view" data-oe-id="1405" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/li[1]/label[1]/span[1]"></span>
+                    <span class="css_publish" data-oe-model="ir.ui.view" data-oe-id="1405" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/li[1]/label[1]/span[2]">Unpublished</span>
+                    <span class="css_unpublish" data-oe-model="ir.ui.view" data-oe-id="1405" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/li[1]/label[1]/span[3]">Published</span>
+                </label>
+            </li>
+        
+    
+                </ul>
+
+                <ul class="o_menu_systray d-none d-md-block">
+                    
+        
+            <li class="js_publish_management  css_published" data-description="Página" data-id="16" data-object="website.page">
+                <label class="o_switch o_switch_danger js_publish_btn" accesskey="p">
+                    <input type="checkbox" data-oe-model="ir.ui.view" data-oe-id="1405" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/li[1]/label[1]/input[1]" checked="True"/>
+                    <span data-oe-model="ir.ui.view" data-oe-id="1405" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/li[1]/label[1]/span[1]"></span>
+                    <span class="css_publish" data-oe-model="ir.ui.view" data-oe-id="1405" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/li[1]/label[1]/span[2]">Unpublished</span>
+                    <span class="css_unpublish" data-oe-model="ir.ui.view" data-oe-id="1405" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/li[1]/label[1]/span[3]">Published</span>
+                </label>
+            </li>
+        
+    
+                    <li class="o_mobile_preview" id="mobile-menu" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[3]/li[1]">
+                        <a data-action="show-mobile-preview" href="#" accesskey="v"><span title="Previsualización móvil" role="img" aria-label="Previsualización móvil" class="fa fa-mobile"></span></a>
+                    </li>
+                    
+
+                    <li class="o_new_content_menu" id="new-content-menu">
+                        <a href="#" accesskey="c" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[3]/li[3]/a[1]"><span class="fa fa-plus mr-2"></span>Nuevo</a>
+                        <div id="o_new_content_menu_choices" class="o_hidden">
+                            <div class="container pt32 pb32">
+                                <div class="row">
+                                    <div class="col-md-4 mb8 o_new_content_element" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[3]/li[3]/div[1]/div[1]/div[1]/div[1]">
+                                        <a href="#" data-action="new_page" aria-label="Nueva pagina" title="Nueva pagina">
+                                            <i class="fa fa-file-o"></i>
+                                            <p>Página</p>
+                                        </a>
+                                    </div>
+                                    
+                                        
+                                        <div class="col-md-4 mb8 o_new_content_element" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[3]/li[3]/div[1]/div[1]/div[1]/t[1]/div[1]">
+                                            <a href="#" data-action="new_blog_post">
+                                                <i class="fa fa-rss"></i>
+                                                <p>Entrada del blog</p>
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="col-md-4 mb8 o_new_content_element" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[3]/li[3]/div[1]/div[1]/div[1]/t[1]/div[2]">
+                                            <a href="#" data-action="new_event">
+                                                <i class="fa fa-ticket"></i>
+                                                <p>Evento</p>
+                                            </a>
+                                        </div>
+                                        
+                                        <div name="module_website_forum" class="col-md-4 mb8 o_new_content_element o_new_content_element_once" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[3]/li[3]/div[1]/div[1]/div[1]/t[1]/div[3]" data-module-id="122" data-module-shortdesc="Foro">
+                                            <a href="#" data-url="/forum" data-action="new_forum">
+                                                <i class="fa fa-comment"></i>
+                                                <p>Foro</p>
+                                            </a>
+                                        </div>
+                                        
+                                        <div name="module_website_hr_recruitment" class="col-md-4 mb8 o_new_content_element" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[3]/li[3]/div[1]/div[1]/div[1]/t[1]/div[4]" data-module-id="34" data-module-shortdesc="Treball en línia">
+                                            <a href="#">
+                                                <i class="fa fa-briefcase"></i>
+                                                <p>Job Offer</p>
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="col-md-4 mb8 o_new_content_element" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[3]/li[3]/div[1]/div[1]/div[1]/t[1]/div[5]">
+                                            <a href="#" data-action="new_product">
+                                                <i class="fa fa-shopping-cart"></i>
+                                                <p>Producto</p>
+                                            </a>
+                                        </div>
+                                        
+                                        <div name="module_website_slides" class="col-md-4 mb8 o_new_content_element" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[3]/li[3]/div[1]/div[1]/div[1]/t[1]/div[6]" data-module-id="117" data-module-shortdesc="eLearning">
+                                            <a href="#" data-action="new_slide_channel">
+                                                <i class="fa module_icon" style="background-image: url('/website/static/src/img/apps_thumbs/website_slide.svg');                                                     background-repeat: no-repeat; background-position: center;"></i>
+                                                <p>Curso</p>
+                                            </a>
+                                        </div>
+                                        
+                                        <div name="module_website_livechat" class="col-md-4 mb8 o_new_content_element o_new_content_element_once" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[3]/li[3]/div[1]/div[1]/div[1]/t[1]/div[7]" data-module-id="274" data-module-shortdesc="Chat en vivo sitio web">
+                                            <a href="#" data-url="/livechat" data-action="new_channel">
+                                                <i class="fa fa-comments"></i>
+                                                <p>Livechat Widget</p>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="edit-page-menu" data-oe-model="ir.ui.view" data-oe-id="1406" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/ul[3]/li[4]">
+                        <a data-action="edit" href="#" accesskey="a"><span class="fa fa-pencil mr-2"></span>Editar</a>
+                    </li>
+        
+    
+            
+        
+                    
+                    
+                    
+                </ul>
+            </nav>
+        <div id="wrapwrap" class="   ">
+                <header id="top" data-anchor="true" data-name="Header" class="  o_header_fixed">
+                    <nav data-name="Navbar" class="navbar navbar-light navbar-expand-lg o_colored_level o_cc">
+            <div id="top_menu_container" class="container">
+                
+    <button type="button" data-toggle="collapse" data-target="#top_menu_collapse" data-oe-model="ir.ui.view" data-oe-id="1299" data-oe-field="arch" data-oe-xpath="/t[1]/button[1]" class="navbar-toggler ">
+        <span class="navbar-toggler-icon o_not_editable"></span>
+    </button>
+
+                <div id="top_menu_collapse" class="collapse navbar-collapse o_header_centered_logo order-last order-lg-first">
+                    
+    <ul id="top_menu" class="nav navbar-nav o_menu_loading ">
+        
+                        
+                            
+    
+    <li class="nav-item">
+        <a role="menuitem" href="/home" class="nav-link ">
+            <span data-oe-model="website.menu" data-oe-id="5" data-oe-field="name" data-oe-type="char" data-oe-expression="submenu.name">Home</span>
+        </a>
+    </li>
+    
+
+                        
+                            
+    
+    <li class="nav-item">
+        <a role="menuitem" href="/reserva" class="nav-link ">
+            <span data-oe-model="website.menu" data-oe-id="10" data-oe-field="name" data-oe-type="char" data-oe-expression="submenu.name">Reserva</span>
+        </a>
+    </li>
+    
+
+                        
+                            
+    
+    <li class="nav-item">
+        <a role="menuitem" href="/shop" class="nav-link ">
+            <span data-oe-model="website.menu" data-oe-id="7" data-oe-field="name" data-oe-type="char" data-oe-expression="submenu.name">Tienda</span>
+        </a>
+    </li>
+    
+
+                        
+                            
+    
+    <li class="nav-item">
+        <a role="menuitem" href="/event" class="nav-link ">
+            <span data-oe-model="website.menu" data-oe-id="19" data-oe-field="name" data-oe-type="char" data-oe-expression="submenu.name">Eventos</span>
+        </a>
+    </li>
+    
+
+                        
+                            
+    
+    <li class="nav-item">
+        <a role="menuitem" href="/carta" class="nav-link active">
+            <span data-oe-model="website.menu" data-oe-id="18" data-oe-field="name" data-oe-type="char" data-oe-expression="submenu.name">Carta</span>
+        </a>
+    </li>
+    
+
+                        
+                    
+    </ul>
+
+                </div>
+                
+    <a href="/" class="navbar-brand logo m-0">
+            <span data-oe-model="website" data-oe-id="1" data-oe-field="logo" data-oe-type="image" data-oe-expression="website.logo" role="img" data-oe-field-xpath="/data/xpath/a/span[1]" aria-label="Logo of Forks&amp;Folks" title="Forks&amp;Folks"><img src="/web/image/website/1/logo/Forks%26Folks?unique=3cd6994" class="img img-fluid" alt="Forks&amp;amp;Folks" loading="lazy"/></span>
+        </a>
+    
+                <ul class="nav navbar-nav o_header_centered_logo justify-content-end">
+                    
+        
+        
+        <li data-oe-model="ir.ui.view" data-oe-id="1652" data-oe-field="arch" data-oe-xpath="/t[1]/li[1]" class="nav-item divider d-none"></li> <li class="o_wsale_my_cart  nav-item">
+            <a href="/shop/cart" class="nav-link">
+                <i class="fa fa-shopping-cart" data-oe-model="ir.ui.view" data-oe-id="1652" data-oe-field="arch" data-oe-xpath="/t[1]/li[2]/a[1]/i[1]"></i>
+                
+                <sup class="my_cart_quantity badge badge-primary" data-order-id="">0</sup>
+            </a>
+        </li>
+    
+        
+            
+        
+                    
+        
+        
+            
+        
+    <li class="nav-item dropdown ml-3 o_no_autohide_item">
+            <a href="#" role="button" data-toggle="dropdown" class="dropdown-toggle nav-link">
+                
+                <i data-oe-model="ir.ui.view" data-oe-id="514" data-oe-field="arch" data-oe-xpath="/t[1]/li[1]/a[1]/i[1]" class="fa fa-1x fa-fw fa-user-circle-o "></i>
+                
+            </a>
+            <div role="menu" class="dropdown-menu js_usermenu ">
+                
+            <a href="/my/home" role="menuitem" class="dropdown-item" data-oe-id="531" data-oe-xpath="/data/xpath/a" data-oe-model="ir.ui.view" data-oe-field="arch">Mi cuenta</a>
+        <div id="o_logout_divider" class="dropdown-divider" data-oe-model="ir.ui.view" data-oe-id="514" data-oe-field="arch" data-oe-xpath="/t[1]/li[1]/div[1]/div[1]"></div>
+                <a role="menuitem" id="o_logout" class="dropdown-item" data-oe-model="ir.ui.view" data-oe-id="514" data-oe-field="arch" data-oe-xpath="/t[1]/li[1]/div[1]/a[1]" href="/web/session/logout?redirect=/">Cerrar sesión</a>
+            </div>
+        </li>
+    
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+                <main>
+                    
+            
+        
+    <div id="wrap" class="oe_structure oe_empty" data-oe-model="ir.ui.view" data-oe-id="2110" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]">
+      <section class="s_product_catalog oe_custom_bg pt48 pb32 o_colored_level s_parallax_no_overflow_hidden oe_img_bg" style="background-image: url(&quot;/web/image/656-2eed13d5/s_product_catalog_default_image.jpg&quot;);" data-vcss="001" data-snippet="s_product_catalog" data-name="Pricelist" data-original-id="194" data-original-src="/website/static/src/img/snippets_demo/s_product_catalog.jpg" data-mimetype="image/jpeg" data-resize-width="1600" data-scroll-background-ratio="0" data-quality="72">
+        <div class="o_container_small" style="text-align: center;">
+          <h2 style="text-align: center;">
+            <font style="font-size: 48px;">Menú</font>
+          </h2>
+          <div class="row" style="text-align: left;">
+            <div class="pt16 pb16 o_colored_level col-lg-4">
+              <h3 style="text-align: justify;">Entrante</h3>
+              <div style="text-align: justify;">
+                <ul class="list-unstyled my-3">
+                  <li class="s_product_catalog_dish" data-name="Product">
+                    <p class="s_product_catalog_dish_title d-flex align-items-baseline pb-2">
+                      <span class="s_product_catalog_dish_name">Aros de Cebolla y Queso</span>
+                      <span class="s_product_catalog_dish_price ml-auto pl-2 o_default_snippet_text">$9.00</span>
+                    </p>
+                    <p class="s_product_catalog_dish_description border-top text-muted pt-1" style="">
+                      <i>Crujientes aros de cebolla y queso rebozados.</i>
+                    </p>
+                  </li>
+                  <li class="s_product_catalog_dish" data-name="Product">
+                    <p class="s_product_catalog_dish_title d-flex align-items-baseline pb-2">
+                      <span class="s_product_catalog_dish_name">Sopa fría del chef</span>
+                      <span class="s_product_catalog_dish_price ml-auto pl-2">$7.50</span>
+                    </p>
+                    <p class="s_product_catalog_dish_description border-top text-muted pt-1" style="">
+                      <i>Una refrescante sopa recomendada por nuestro chef.</i>
+                    </p>
+                  </li>
+                  <li class="s_product_catalog_dish" data-name="Product">
+                    <p class="s_product_catalog_dish_title d-flex align-items-baseline pb-2">
+                      <span class="s_product_catalog_dish_name">Carpaccio de ternera</span>
+                      <span class="s_product_catalog_dish_price ml-auto pl-2">$10.50</span>
+                    </p>
+                    <p class="s_product_catalog_dish_description border-top text-muted pt-1" style="">
+                      <i>Un clásico italiano, de la mayor calidad posible.</i>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="pt16 pb16 o_colored_level col-lg-4" style="text-align: justify;">
+              <h3>Plato Principal<br/></h3>
+              <ul class="list-unstyled my-3">
+                <li class="s_product_catalog_dish" data-name="Product">
+                  <p class="s_product_catalog_dish_title d-flex align-items-baseline pb-2">
+                    <span class="s_product_catalog_dish_name">Filet Mignon 8oz</span>
+                    <span class="s_product_catalog_dish_price ml-auto pl-2 o_default_snippet_text">$15.50</span>
+                  </p>
+                  <p class="s_product_catalog_dish_description border-top text-muted pt-1" style="">
+                    <i>La famosa pieza de carne.</i>
+                  </p>
+                </li>
+                <li class="s_product_catalog_dish" data-name="Product">
+                  <p class="s_product_catalog_dish_title d-flex align-items-baseline pb-2">
+                    <span class="s_product_catalog_dish_name">Pollo Forks &amp; Folks</span>
+                    <span class="s_product_catalog_dish_price ml-auto pl-2 o_default_snippet_text">$15.50</span>
+                  </p>
+                  <p class="s_product_catalog_dish_description border-top text-muted pt-1" style="">
+                    <i>La especialidad del chef. La receta es un secreto pero le aseguramos le va a encantar.</i>
+                  </p>
+                </li>
+                <li class="s_product_catalog_dish" data-name="Product">
+                  <p class="align-items-baseline d-flex pb-2 s_product_catalog_dish_title">&nbsp;Hamburguesa de atún o salmón <span class="ml-auto o_default_snippet_text pl-2 s_product_catalog_dish_price">$12.00
+                  </span></p>
+                  <p class="s_product_catalog_dish_description border-top text-muted pt-1" style="">
+                    <i>Una deliciosa hamburguesa del pescado que prefiera.</i>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="pt16 pb16 o_colored_level col-lg-4">
+              <h3 style="text-align: justify;">Postre</h3>
+              <ul class="list-unstyled my-3">
+                <li class="s_product_catalog_dish" data-name="Product">
+                  <div style="text-align: justify;">
+                    <p class="s_product_catalog_dish_title d-flex align-items-baseline pb-2">
+                      <span class="s_product_catalog_dish_name">Tarta de Queso</span>
+                      <span class="s_product_catalog_dish_price ml-auto pl-2">$10</span>
+                    </p>
+                    <p class="s_product_catalog_dish_description border-top text-muted pt-1" style="">
+                      <i>Tarta de queso casera, como la que hacia su abuela.</i>
+                    </p>
+                  </div>
+                </li>
+                <li class="s_product_catalog_dish" data-name="Product">
+                  <div style="text-align: justify;">
+                    <p class="s_product_catalog_dish_title d-flex align-items-baseline pb-2">
+                      <span class="s_product_catalog_dish_name">Tiramisú</span>
+                      <span class="s_product_catalog_dish_price ml-auto pl-2">$11.50</span>
+                    </p>
+                    <p class="s_product_catalog_dish_description border-top text-muted pt-1" style="">
+                      <i>Con cacao y café de la máxima calidad y mascarpone de Italia.</i>
+                      <br/>
+                    </p>
+                  </div>
+                </li>
+                <li class="s_product_catalog_dish" data-name="Product">
+                  <p class="s_product_catalog_dish_title d-flex align-items-baseline pb-2" style="text-align: justify;">
+                    <span class="s_product_catalog_dish_name">Profiteroles 6ud</span>
+                    <span class="s_product_catalog_dish_price ml-auto pl-2 o_default_snippet_text">$12.00</span>
+                  </p>
+                  <p class="s_product_catalog_dish_description border-top text-muted pt-1" style="text-align: justify;">
+                    <i>Rellenos de cacao, nata o crema.</i>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  
+                </main>
+            <html lang="en" data-oe-id="2053" data-oe-xpath="/data/xpath/html" data-oe-model="ir.ui.view" data-oe-field="arch">
+                <head>
+                    <meta charset="UTF-8"/>
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                    <title>The Chef</title>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
+                    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+                    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&amp;family=Satisfy&amp;display=swap" rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap" rel="stylesheet"/>
+                    <link rel="stylesheet" href="/theme_the_chef/static/src/css/owl.carousel.min.css"/>
+                    <link rel="stylesheet" href="/theme_the_chef/static/src/css/owl.theme.default.min.css"/>
+                    <link rel="stylesheet" href="/theme_the_chef/static/src/css/style.css"/>
+                    <link rel="stylesheet" type="text/css" href="/theme_the_chef/static/src/css/animate.min.css"/>
+                </head>
+                <body>
+                    <section class="main_body">
+                    </section>
+                </body>
+                <script type="text/javascript" src="/theme_the_chef/static/src/js/owl.carousel.js"></script>
+                <script type="text/javascript" src="/theme_the_chef/static/src/js/custom.js"></script>
+            </html>
+        
+                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc  o_footer_slideout">
+                    <section class="main_body o_colored_level" style="" data-oe-id="2054" data-oe-xpath="/data/xpath/section" data-oe-model="ir.ui.view" data-oe-field="arch">
+      <footer class="footer">
+        <div class="container-fluid">
+          <div class="footer_content">
+            <div class="row">
+              <div class="col-md-4 col-sm-12 pb-md-0 pb-lg-0 o_colored_level pb0 col-lg-4 pt0" style="">
+                <div class="wrapper">
+                  <div class="brand">
+                    <img class="d-block img-fluid mx-auto o_we_custom_image" src="/web/image/601-8ec89684/Captura%20de%20pantalla%20de%202021-11-10%2013-31-18.png" alt="" data-original-title="" title="" aria-describedby="tooltip465011" style="" data-original-id="600" data-original-src="/web/image/600-24cfc4b3/Captura%20de%20pantalla%20de%202021-11-10%2013-31-18.png" data-mimetype="image/png" data-resize-width="456" loading="lazy"/>
+                    <div class="footer_icon">
+                      <a href="#" data-original-title="" title="" aria-describedby="tooltip10023"></a>
+                      <a href="#" data-original-title="" title="" aria-describedby="tooltip813650"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 pb-5 pb-md-0 pb-lg-0 o_colored_level" style="">
+                <div class="wrapper">
+                  <h4>Horario<br/></h4>
+                  <ul class="list-unstyled open-hours">
+                    <li class="d-flex justify-content-between">
+                      <span>Lunes</span>
+                      <span>9:00 - 24:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <span>Martes</span>
+                      <span>9:00 - 24:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <span>Miércoles</span>
+                      <span>9:00 - 24:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <span>Jueves</span>
+                      <span>9:00 - 24:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <span>Viernes</span>
+                      <span>9:00 - 02:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <span>Sábado</span>
+                      <span>9:00 - 02:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <span>Domingo</span>
+                      <span> Cerrado</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 offset-lg-1 col-md-4 col-sm-12 pb-5 pb-md-0 pb-lg-0 o_colored_level">
+                <div class="wrapper">
+                  <h4>Llamanos<br/></h4>
+                  <p>987654321<br/></p>
+                  <div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="usr" placeholder="Enter Email"/>
+                    </div>
+                  </div>
+                  <a href="/home" class="btn btn-fill-primary" data-original-title="" title="" aria-describedby="tooltip715523">Submit</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer_bottom">
+              <p>Copyright © <a href="#" data-original-title="" title="" aria-describedby="tooltip93413">Forks&amp;Folks</a> All rights reserved </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  <div class="o_footer_copyright o_colored_level o_cc" data-name="Copyright">
+                        <div class="container py-3">
+                            <div class="row">
+                                <div class="col-sm text-center text-sm-left text-muted">
+                                    
+        
+    
+                                    <span class="o_footer_copyright_name mr-2" data-oe-id="1295" data-oe-xpath="/data/xpath[16]/span" data-oe-model="ir.ui.view" data-oe-field="arch">Copyright &copy; Company name</span>
+    
+    
+        
+        
+    
+        
+        
+    
+        <div class="js_language_selector  dropup">
+            <button class="btn btn-sm btn-outline-secondary border-0 dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                
+        
+    <img class="o_lang_flag" data-oe-model="ir.ui.view" data-oe-id="1364" data-oe-field="arch" data-oe-xpath="/t[1]/img[1]" src="/base/static/img/country_flags/es.png?height=25" loading="lazy"/>
+
+    <span class="align-middle"> Español</span>
+            </button>
+            <div class="dropdown-menu" role="menu">
+                
+                    <a class="dropdown-item js_change_lang" href="/en/carta" data-url_code="en">
+                        
+        
+    <img class="o_lang_flag" data-oe-model="ir.ui.view" data-oe-id="1364" data-oe-field="arch" data-oe-xpath="/t[1]/img[1]" src="/base/static/img/country_flags/us.png?height=25" loading="lazy"/>
+
+    <span>English (US)</span>
+                    </a>
+                
+                    <a class="dropdown-item js_change_lang" href="/es/carta" data-url_code="es">
+                        
+        
+    <img class="o_lang_flag" data-oe-model="ir.ui.view" data-oe-id="1364" data-oe-field="arch" data-oe-xpath="/t[1]/img[1]" src="/base/static/img/country_flags/es.png?height=25" loading="lazy"/>
+
+    <span> Español</span>
+                    </a>
+                
+        
+    <a class="o_add_language d-none d-sm-block dropdown-item" href="/web#action=base.action_view_base_language_install&amp;website_id=1&amp;url_return=">
+        
+        <i class="fa fa-plus-circle" data-oe-model="ir.ui.view" data-oe-id="1365" data-oe-field="arch" data-oe-xpath="/t[1]/a[1]/i[1]"></i>
+        Add a language...
+    </a>
+
+    
+            </div>
+        </div>
+    
+        
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+        
+    
+            </div>
+        
+    
+        
+        
+    </body>
+        </html>
+    
+�:�07       a�m�a�m�C�H�a�m�   I    O^partitionKey=%28http%2Clocalhost%2C8069%29,:http://localhost:8069/carta necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.0 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 40833
+Server: Werkzeug/0.16.1 Python/3.8.10
+Date: Wed, 01 Dec 2021 12:42:59 GMT
+ original-response-headers Content-Type: text/html; charset=utf-8
+Set-Cookie: session_id=fc047ec531fdf80000b154c328ddc0f8e75281ef; Expires=Tue, 01-Mar-2022 12:42:59 GMT; Max-Age=7776000; HttpOnly; Path=/
+Content-Length: 40833
+Server: Werkzeug/0.16.1 Python/3.8.10
+Date: Wed, 01 Dec 2021 12:42:59 GMT
+ ctid 1 uncompressed-len 0 net-response-time-onstart 98 net-response-time-onstop 183   ��

@@ -1,0 +1,37 @@
+[2021-12-01 13:10:00.307] [exthost] [info] Extension host with pid 101841 started
+[2021-12-01 13:10:00.736] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-01 13:10:00.936] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-01 13:10:00.961] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-01 13:10:01.864] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-01 13:10:01.930] [exthost] [info] Eager extensions activated
+[2021-12-01 13:10:01.970] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 13:10:02.075] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-01 13:10:09.228] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-01 13:10:10.230] [exthost] [info] Extension host with pid 101841 exiting with code 0
+[2021-12-01 13:10:12.651] [exthost] [info] Extension host with pid 101947 started
+[2021-12-01 13:10:12.651] [exthost] [info] Skipping acquiring lock for /opt/odoo/.config/Code/User/workspaceStorage/aea799b9ee42794704c90b33fc525340.
+[2021-12-01 13:10:12.916] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-01 13:10:13.026] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-01 13:10:13.029] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-01 13:10:14.035] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-01 13:10:14.167] [exthost] [info] Eager extensions activated
+[2021-12-01 13:10:14.207] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-01 13:10:14.422] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 13:10:41.372] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-01 13:10:41.448] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-01 13:10:42.381] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2021-12-01 13:54:19.066] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2021-12-01 13:54:23.293] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-01 13:54:23.320] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-01 13:54:23.588] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-01 13:55:54.990] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-01 13:55:55.084] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at n._remoteCall (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:13876)
+	at Proxy.x.<computed>.F.charCodeAt.x.<computed> (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:10271)
+	at P.showMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:211859)
+	at Object.showErrorMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:29830)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:896068
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async o._executeContributedCommand (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:111743) git.refresh {"value":"vscode.git","_lower":"vscode.git"}
+[2021-12-01 13:55:56.069] [exthost] [info] Extension host with pid 101947 exiting with code 0

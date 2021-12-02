@@ -1,0 +1,15 @@
+[2021-12-02 08:59:02.462] [exthost] [info] Extension host with pid 5588 started
+[2021-12-02 08:59:02.462] [exthost] [info] Skipping acquiring lock for /opt/odoo/.config/Code/User/workspaceStorage/aea799b9ee42794704c90b33fc525340.
+[2021-12-02 08:59:02.749] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-02 08:59:02.805] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-02 08:59:02.833] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-02 08:59:03.300] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-02 08:59:04.455] [exthost] [info] Eager extensions activated
+[2021-12-02 08:59:04.619] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-02 08:59:05.923] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2021-12-02 08:59:16.792] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-02 09:00:30.385] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-02 09:00:30.408] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-02 09:00:30.874] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2021-12-02 09:03:15.802] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-02 09:03:16.807] [exthost] [info] Extension host with pid 5588 exiting with code 0

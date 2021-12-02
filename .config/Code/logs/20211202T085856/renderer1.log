@@ -1,0 +1,10 @@
+[2021-12-02 08:59:00.663] [renderer1] [info] Starting extension host with pid 5588.
+[2021-12-02 08:59:00.666] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 202 ms.
+[2021-12-02 08:59:02.253] [renderer1] [error] [Extension Host] (node:5588) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-02 08:59:08.852] [renderer1] [info] Enabling inspect port on extension host with pid 5588.
+[2021-12-02 08:59:17.117] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.git' took 52% of 6996.855ms, saved PROFILE here: 'file:///tmp/exthost-d69980.cpuprofile' [{"id":"gc","total":118263,"percentage":2},{"id":"program","total":2563110,"percentage":37},{"id":"self","total":656773,"percentage":9},{"id":"vscode.git","total":3644504,"percentage":52},{"id":"vscode.github","total":1887,"percentage":0},{"id":"vscode.merge-conflict","total":11726,"percentage":0}]
+[2021-12-02 09:01:12.451] [renderer1] [warning] [File watcher]: started ignoring events due to too many file change events at once (incoming: 3329, most recent change: file:///opt/odoo/dam/odoo-venv/lib/python3.8/site-packages/docutils/parsers/rst/__pycache__). Use 'files.watcherExclude' setting to exclude folders with lots of changing files (e.g. compilation output).
+[2021-12-02 09:03:10.622] [renderer1] [error] An unknown error occurred. Please consult the log for more details.: EntryNotFound (FileSystemError): 
+	at u.readFile (/usr/share/code/resources/app/extensions/git/dist/main.js:2:913809)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
