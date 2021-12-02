@@ -443,3 +443,5 @@ X Protocol Version 11, Revision 0
 [  3676.399] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
 [  3676.407] (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
 [  3676.407] (II) event5  - VirtualBox USB Tablet: device is a pointer
+[  4165.902] (EE) No surface to present from.
+[  4165.934] (EE) No surface to present from.

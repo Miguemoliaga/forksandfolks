@@ -239,4 +239,24 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///opt/odoo/Captura%20de%20pantalla%20de%202021-12-02%2010-11-18.png" added="2021-12-02T09:11:18Z" modified="2021-12-02T09:11:18Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gsd-media-keys" exec="&apos;gsd-media-keys %u&apos;" modified="2021-12-02T09:11:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///opt/odoo/Descargas/trabajodoo_2021-12-02_09-14-31.zip" added="2021-12-02T09:14:45Z" modified="2021-12-02T09:14:45Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-02T09:14:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

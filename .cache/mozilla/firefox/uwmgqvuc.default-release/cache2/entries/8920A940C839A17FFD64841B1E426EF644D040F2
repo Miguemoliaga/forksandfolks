@@ -266,7 +266,314 @@
   return Tab;
 
 }));
-	Oe      aßfVaßfVC∞Cqa∞†÷   f    O^partitionKey=%28http%2Clocalhost%2C8069%29,:http://localhost:8069/web/static/lib/bootstrap/js/tab.js necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.0 200 OK
+           20211028161635-8l÷  /*!
+  * Bootstrap tab.js v4.3.1 (https://getbootstrap.com/)
+  * Copyright 2011-2019 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+  */
+(function (global, factory) {
+  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('jquery'), require('./util.js')) :
+  typeof define === 'function' && define.amd ? define(['jquery', './util.js'], factory) :
+  (global = global || self, global.Tab = factory(global.jQuery, global.Util));
+}(this, function ($, Util) { 'use strict';
+
+  $ = $ && $.hasOwnProperty('default') ? $['default'] : $;
+  Util = Util && Util.hasOwnProperty('default') ? Util['default'] : Util;
+
+  function _defineProperties(target, props) {
+    for (var i = 0; i < props.length; i++) {
+      var descriptor = props[i];
+      descriptor.enumerable = descriptor.enumerable || false;
+      descriptor.configurable = true;
+      if ("value" in descriptor) descriptor.writable = true;
+      Object.defineProperty(target, descriptor.key, descriptor);
+    }
+  }
+
+  function _createClass(Constructor, protoProps, staticProps) {
+    if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+    if (staticProps) _defineProperties(Constructor, staticProps);
+    return Constructor;
+  }
+
+  /**
+   * ------------------------------------------------------------------------
+   * Constants
+   * ------------------------------------------------------------------------
+   */
+
+  var NAME = 'tab';
+  var VERSION = '4.3.1';
+  var DATA_KEY = 'bs.tab';
+  var EVENT_KEY = "." + DATA_KEY;
+  var DATA_API_KEY = '.data-api';
+  var JQUERY_NO_CONFLICT = $.fn[NAME];
+  var Event = {
+    HIDE: "hide" + EVENT_KEY,
+    HIDDEN: "hidden" + EVENT_KEY,
+    SHOW: "show" + EVENT_KEY,
+    SHOWN: "shown" + EVENT_KEY,
+    CLICK_DATA_API: "click" + EVENT_KEY + DATA_API_KEY
+  };
+  var ClassName = {
+    DROPDOWN_MENU: 'dropdown-menu',
+    ACTIVE: 'active',
+    DISABLED: 'disabled',
+    FADE: 'fade',
+    SHOW: 'show'
+  };
+  var Selector = {
+    DROPDOWN: '.dropdown',
+    NAV_LIST_GROUP: '.nav, .list-group',
+    ACTIVE: '.active',
+    ACTIVE_UL: '> li > .active',
+    DATA_TOGGLE: '[data-toggle="tab"], [data-toggle="pill"], [data-toggle="list"]',
+    DROPDOWN_TOGGLE: '.dropdown-toggle',
+    DROPDOWN_ACTIVE_CHILD: '> .dropdown-menu .active'
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
+  };
+
+  var Tab =
+  /*#__PURE__*/
+  function () {
+    function Tab(element) {
+      this._element = element;
+    } // Getters
+
+
+    var _proto = Tab.prototype;
+
+    // Public
+    _proto.show = function show() {
+      var _this = this;
+
+      if (this._element.parentNode && this._element.parentNode.nodeType === Node.ELEMENT_NODE && $(this._element).hasClass(ClassName.ACTIVE) || $(this._element).hasClass(ClassName.DISABLED)) {
+        return;
+      }
+
+      var target;
+      var previous;
+      var listElement = $(this._element).closest(Selector.NAV_LIST_GROUP)[0];
+      var selector = Util.getSelectorFromElement(this._element);
+
+      if (listElement) {
+        var itemSelector = listElement.nodeName === 'UL' || listElement.nodeName === 'OL' ? Selector.ACTIVE_UL : Selector.ACTIVE;
+        previous = $.makeArray($(listElement).find(itemSelector));
+        previous = previous[previous.length - 1];
+      }
+
+      var hideEvent = $.Event(Event.HIDE, {
+        relatedTarget: this._element
+      });
+      var showEvent = $.Event(Event.SHOW, {
+        relatedTarget: previous
+      });
+
+      if (previous) {
+        $(previous).trigger(hideEvent);
+      }
+
+      $(this._element).trigger(showEvent);
+
+      if (showEvent.isDefaultPrevented() || hideEvent.isDefaultPrevented()) {
+        return;
+      }
+
+      if (selector) {
+        target = document.querySelector(selector);
+      }
+
+      this._activate(this._element, listElement);
+
+      var complete = function complete() {
+        var hiddenEvent = $.Event(Event.HIDDEN, {
+          relatedTarget: _this._element
+        });
+        var shownEvent = $.Event(Event.SHOWN, {
+          relatedTarget: previous
+        });
+        $(previous).trigger(hiddenEvent);
+        $(_this._element).trigger(shownEvent);
+      };
+
+      if (target) {
+        this._activate(target, target.parentNode, complete);
+      } else {
+        complete();
+      }
+    };
+
+    _proto.dispose = function dispose() {
+      $.removeData(this._element, DATA_KEY);
+      this._element = null;
+    } // Private
+    ;
+
+    _proto._activate = function _activate(element, container, callback) {
+      var _this2 = this;
+
+      var activeElements = container && (container.nodeName === 'UL' || container.nodeName === 'OL') ? $(container).find(Selector.ACTIVE_UL) : $(container).children(Selector.ACTIVE);
+      var active = activeElements[0];
+      var isTransitioning = callback && active && $(active).hasClass(ClassName.FADE);
+
+      var complete = function complete() {
+        return _this2._transitionComplete(element, active, callback);
+      };
+
+      if (active && isTransitioning) {
+        var transitionDuration = Util.getTransitionDurationFromElement(active);
+        $(active).removeClass(ClassName.SHOW).one(Util.TRANSITION_END, complete).emulateTransitionEnd(transitionDuration);
+      } else {
+        complete();
+      }
+    };
+
+    _proto._transitionComplete = function _transitionComplete(element, active, callback) {
+      if (active) {
+        $(active).removeClass(ClassName.ACTIVE);
+        var dropdownChild = $(active.parentNode).find(Selector.DROPDOWN_ACTIVE_CHILD)[0];
+
+        if (dropdownChild) {
+          $(dropdownChild).removeClass(ClassName.ACTIVE);
+        }
+
+        if (active.getAttribute('role') === 'tab') {
+          active.setAttribute('aria-selected', false);
+        }
+      }
+
+      $(element).addClass(ClassName.ACTIVE);
+
+      if (element.getAttribute('role') === 'tab') {
+        element.setAttribute('aria-selected', true);
+      }
+
+      Util.reflow(element);
+
+      if (element.classList.contains(ClassName.FADE)) {
+        element.classList.add(ClassName.SHOW);
+      }
+
+      if (element.parentNode && $(element.parentNode).hasClass(ClassName.DROPDOWN_MENU)) {
+        var dropdownElement = $(element).closest(Selector.DROPDOWN)[0];
+
+        if (dropdownElement) {
+          var dropdownToggleList = [].slice.call(dropdownElement.querySelectorAll(Selector.DROPDOWN_TOGGLE));
+          $(dropdownToggleList).addClass(ClassName.ACTIVE);
+        }
+
+        element.setAttribute('aria-expanded', true);
+      }
+
+      if (callback) {
+        callback();
+      }
+    } // Static
+    ;
+
+    Tab._jQueryInterface = function _jQueryInterface(config) {
+      return this.each(function () {
+        var $this = $(this);
+        var data = $this.data(DATA_KEY);
+
+        if (!data) {
+          data = new Tab(this);
+          $this.data(DATA_KEY, data);
+        }
+
+        if (typeof config === 'string') {
+          if (typeof data[config] === 'undefined') {
+            throw new TypeError("No method named \"" + config + "\"");
+          }
+
+          data[config]();
+        }
+      });
+    };
+
+    _createClass(Tab, null, [{
+      key: "VERSION",
+      get: function get() {
+        return VERSION;
+      }
+    }]);
+
+    return Tab;
+  }();
+  /**
+   * ------------------------------------------------------------------------
+   * Data Api implementation
+   * ------------------------------------------------------------------------
+   */
+
+
+  $(document).on(Event.CLICK_DATA_API, Selector.DATA_TOGGLE, function (event) {
+    event.preventDefault();
+
+    Tab._jQueryInterface.call($(this), 'show');
+  });
+  /**
+   * ------------------------------------------------------------------------
+   * jQuery
+   * ------------------------------------------------------------------------
+   */
+
+  $.fn[NAME] = Tab._jQueryInterface;
+  $.fn[NAME].Constructor = Tab;
+
+  $.fn[NAME].noConflict = function () {
+    $.fn[NAME] = JQUERY_NO_CONFLICT;
+    return Tab._jQueryInterface;
+  };
+
+  return Tab;
+
+}));
+  8   http://localhost:8069/web/static/lib/bootstrap/js/tab.js”ò¿Ÿá   N        Ç®êÓ      factory    ,∆Ë      exports    wÏ      require    ˝f§       jquery     ◊ñÅ˛	      ./util.js      ˝Ìu      define     ◊®ÑX      amd    ¡§\l      self   R†Â/      Tab	    >Â/      jQuery
+     ∑™r      Util   «â”é      _defineProperties       ¶      props      ”XÏá
+      descriptor     B¸ø;      key    mx<t      _createClass   $îüŒ      Constructor    à”πY
+      protoProps     :ΩõÑ      staticProps    9◊õ÷      NAME   ûª◊!      tab    fÒ‘      VERSION    G0qÀ      4.3.1      ¢˛Aƒ      DATA_KEY   k§d      bs.tab     æÄ	      EVENT_KEY      ÄYS≈      DATA_API_KEY   ’¬z–	      .data-api      %ÚÇ      JQUERY_NO_CONFLICT     tÇ3       Event      H÷8      HIDE   üvÙ}      hide    i«Ó      HIDDEN!     Ñ€ËW      hidden"     ù ë      SHOW#   HáíK      show$   <b”ë      SHOWN%      oZÎë      shown&      à)±Û      CLICK_DATA_API'     ü™‚X      click(      uZDT	      ClassName)      ò¯      DROPDOWN_MENU*      ©∫ó»      dropdown-menu+      ÄQÑ;      ACTIVE,     å®Px      active-     *E∏      DISABLED.   ûzÉw      disabled/   Ω—˘®      FADE0   &oª7      fade1   5
+      Selector2   2;£µ      DROPDOWN3   ÅzÉ	      .dropdown4      ÀW€      NAV_LIST_GROUP5     Ï<Væ      .nav, .list-group6      “ÙÙ;      .active7    0„H>	      ACTIVE_UL8      õ•Ÿ      > li > .active9     ë˚:      DATA_TOGGLE:    GE?      [data-toggle="tab"], [data-toggle="pill"], [data-toggle="list"];    Ó>≥Ì      DROPDOWN_TOGGLE<    8Ëo      .dropdown-toggle=   £≈G¿      DROPDOWN_ACTIVE_CHILD>      —Zh      > .dropdown-menu .active@   %-)C      _protoA     § œ      _thisG      V¨†ö      previousT   ∏OÄ      documentV   4ﬁW	      _activateW      Dï»á      completeZ   æ˘&      dispose]    Ë€˘      callback^   3)—¯      _this2b     ™œΩ      _transitionCompletev    gî      _jQueryInterfacew   ~û4      config}     <®
+      noConflict~     q¬•      Tab<   ÿC5      $.fn[NAME].noConflict     ê  Ô%,â                                                                                                          ≥Oåc                         µ                  $ `
+  P  P  P  P  P  P      P  P(  P1  P  P                P@                                 õ    i    Ø¬0∞IÙ$KEÆ˙ö              "  $  &          )  +  -  /  "     #     2  4  +  7  9  ;  =     
+     ¶   á&’™ç!´!   D     D                             h    0h   s ÷ü@ `PF	&PDÄ P \  \  
+                        µ      ñ   ë   ÷µ      ë   î<   ë   µ   ∂  µ       o µ       o o I   ì§   ë   µ   	   ñ   ë   ÷µ   G
+   ë   î4   ë   µ    c      d       d   ∂ s ìE   ë   ∂  ó   ë   ÷µ   ë   √  ÷∂  ∂  ∂  G   ∂  G   o I   ë   ÷ü0 `Pó Ø 9P.P#ˇˇˇÂPí0 ª 5*
+-ˇˇˇÓP= ú ó P>P |  |  ó                7       h   ≈   ÷h   ≈   ÷∏   ñ   ë   ÷∏   ÿG   €   o ë   î   ë   ∏   G   ì   ë   ∏   ë   ≈   ÷∏   ñ   ë   ÷∏   ÿG   €   o ë   î   ë	   ∏   G   ì   ë
+   ∏   ë
+   ≈   ÷   ≈   ÷   ≈   ÷   ≈   ÷   ∏   %ƒ   ÷	   ƒ  ÷∏   G
+   ∏   H≈ 	  ÷6      ∑   %9      ∑   %9      ∑   %9      ∑   %9      ∑   %∑  %9   ≈ 
+  ÷6      9      9      9      9      9   ≈   ÷6       9!   "   9#   $   9   %   9&   '   9(   )   9*   +   9,   ≈   ÷h-    o  ≈   ÷∏    µ.   o ÿG/   €∏ 
+  G   ∏   G(   h0   s ÷∏   G
+   ∏   ∏   G1   L÷∏   G
+   ∏   H∏   J2   ÷∏   G
+   ∏   Hh3   J4   ÷∏   úüñ@ `P° P∂0 `P° P∂@ `P; `P; `P; `Pê0 `P: `Pñ0 `P5 ? ? ? ? ö@( `P5 : : : : ê@/ `P5 : : : : : : ê@?@A `PFÄ  Â PIÄ  Ì `P+P£ PDÄ  ¯ `Põ0 `Põ00 `Põ@Ä   `P50Q   0     ª                       ƒ   ÷í    ∑   ∂ G   îú   ë   ∂ ∑   Hƒ  ÷∑  ∑  G   ó   ë   ÷ë   J   ÷∑  J   ÷   ∑  !î   ë
+   ∑  J   ÷ë   µ   ÿG   €∂  ∑  G   ∑  s ÷∑   .ÿ'ƒ   ÷÷ìVˇˇˇë   ü0 	 `P&fPó0 `P= `P§0 `P; 
+`Pî `Pê0 `Pú PD &`Pó@ P    0            Ø   î   î   N                         ∂ î   ë   ∏    ∂  G   ∂ s ÷ë   ∂ î   ë   ∏    ∂  ∂ s ÷ë   ∂  úü0 `P-`Pë P9 `P-`P,P9 `P3 Q       †                         h   ≈   ÷∏   G   ƒ   ÷∑   h   J   ÷∑   h   J   ÷∑   h   J   ÷∑   h	   J
+   ÷∏   h   J   ÷∏   ∏   c   6      9   h   9   d    s ÷∏   úüK `PO	 `POD `POJ `PO] `POÄ  à `Pê@Ä  ú `Pë 5 : OÄ  ú PDÄ  £ `P5 Q                                                    3ıÿ  p                            A  G    p        k   ]  ^  ,    pw    p  p	  p
+  p  p  p  p    p  p  p  p  p$  
+                (  1      `  Ó    Ì          Ô      	  
+       `  p  p  `  p  p¬   W         .    ◊    @    !     #  "  %  $  '  &    @*  )  ,  +  .  -  0  /    @3  2  5  4  6  8  7  :  9  <  ;  >  =    pT     pv      p}    `  pZ    p#  	  pZ  
+  pV    pb    pv    @      p¶     `Z    `ˆ   v   @   ’  Á  ¯  Y     ˇXÑ;                 ,              † >   5           † á   	         †  Ö            †  s      ~      †             `† 	     
+   #    `†	         W      †          Z    `†	 
+      V    `†	         W      †          b    `†	       v    `†	                 †          ¶     `†	               `†	             `†	 ùH©¿      ÷      ÷                      C  ˜   C     
+          Ä S  “  J  “  
+                 [  ˆ  [                 t  D  _  D               Ä C
+  Â  :
+  Â  K               X
+  à
+  L
+  à
+  L             Ç ‰
+  è  ◊
+  è  T                ‚    —    }   &            ∑  
+  ß  
+  è   %           Ç F  R  4  R  ï   )            €  -     -  ú   &             í  K  v  K  ®   =          Ç ë  T  x  T  ”   4           º  L  ≥  L  ‘                 £  «  ó  «  È               ˆ  P  Ì  P  ˜   F            q  ø  h  ø    #           5°›èÀb4&D      a®éna®éoC≤ªπa∞†÷   f    O^partitionKey=%28http%2Clocalhost%2C8069%29,:http://localhost:8069/web/static/lib/bootstrap/js/tab.js necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.0 200 OK
 Date: Wed, 01 Dec 2021 12:11:02 GMT
 Etag: "wzsdm-1632240835-8150-133956163"
 Cache-Control: max-age=604800, public
@@ -283,4 +590,4 @@ Content-Type: application/javascript
 Content-Length: 8150
 Last-Modified: Tue, 21 Sep 2021 16:13:55 GMT
 Server: Werkzeug/0.16.1 Python/3.8.10
- ctid 2 uncompressed-len 0 net-response-time-onstart 456 net-response-time-onstop 460   ÷
+ ctid 2 uncompressed-len 0 net-response-time-onstart 456 net-response-time-onstop 460 alt-data 1;8150,javascript/moz-bytecode-20211028161635-8l alt-data-from-child 1   X≤

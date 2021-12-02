@@ -1,0 +1,474 @@
+
+        
+        <!DOCTYPE html>
+        
+        
+            
+        
+    <html lang="es-ES" data-website-id="1" data-oe-company-name="My Company">
+            
+        
+            
+                
+            
+            
+            
+            
+                
+            
+        
+        
+    <head>
+                <meta charset="utf-8"/>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        <meta name="generator" content="Odoo"/>
+        
+        
+        
+            
+            
+            
+        
+        
+        
+            
+            
+            
+                
+                    
+                        <meta property="og:type" content="website"/>
+                    
+                
+                    
+                        <meta property="og:title" content="Login | Forks&amp;Folks"/>
+                    
+                
+                    
+                        <meta property="og:site_name" content="My Company"/>
+                    
+                
+                    
+                        <meta property="og:url" content="http://localhost:8069/web/login"/>
+                    
+                
+                    
+                        <meta property="og:image" content="http://localhost:8069/web/image/website/1/logo?unique=3cd6994"/>
+                    
+                
+            
+            
+            
+                
+                    <meta name="twitter:card" content="summary_large_image"/>
+                
+                    <meta name="twitter:title" content="Login | Forks&amp;Folks"/>
+                
+                    <meta name="twitter:image" content="http://localhost:8069/web/image/website/1/logo?unique=3cd6994"/>
+                
+            
+        
+
+        
+            
+            
+                <link rel="alternate" hreflang="en" href="http://localhost:8069/en/web/login"/>
+            
+                <link rel="alternate" hreflang="es" href="http://localhost:8069/web/login"/>
+            
+                <link rel="alternate" hreflang="x-default" href="http://localhost:8069/web/login"/>
+            
+        
+        <link rel="canonical" href="http://localhost:8069/web/login"/>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+    
+        
+
+                <title> Login | Forks&amp;Folks </title>
+                <link type="image/x-icon" rel="shortcut icon" href="/web/image/website/1/favicon?unique=3cd6994"/>
+            <link rel="preload" href="/web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
+            <link type="text/css" rel="stylesheet" href="/web/content/777-649d5d6/1/web.assets_common.css" data-asset-xmlid="web.assets_common" data-asset-version="649d5d6"/>
+            <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&amp;family=Satisfy&amp;display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap" rel="stylesheet"/>
+            <link type="text/css" rel="stylesheet" href="/web/content/758-b4f296b/1/web.assets_frontend.css" data-asset-xmlid="web.assets_frontend" data-asset-version="b4f296b"/>
+        
+    
+        
+
+                <script id="web.layout.odooscript" type="text/javascript">
+                    var odoo = {
+                        csrf_token: "8c778c08d3edaedb6fb8ebf55de258b9155f141do1669972421",
+                        debug: "",
+                    };
+                </script>
+            <script type="text/javascript">
+                odoo.session_info = {"is_admin": false, "is_system": false, "is_website_user": true, "user_id": false, "is_frontend": true, "translationURL": "/website/translations", "cache_hashes": {"translations": "6fba0d0a1b2178164b2045145d6a02d90170fa52"}};
+                if (!/(^|;\s)tz=/.test(document.cookie)) {
+                    const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                    document.cookie = `tz=${userTZ}; path=/`;
+                }
+            </script>
+            <script defer="defer" type="text/javascript" src="/web/content/760-db2e594/1/web.assets_common_minimal_js.js" data-asset-xmlid="web.assets_common_minimal_js" data-asset-version="db2e594"></script>
+            <script defer="defer" type="text/javascript" src="/web/content/761-6005344/1/web.assets_frontend_minimal_js.js" data-asset-xmlid="web.assets_frontend_minimal_js" data-asset-version="6005344"></script>
+            
+        
+    
+            <script defer="defer" type="text/javascript" data-src="/web/content/762-c301489/1/web.assets_common_lazy.js" data-asset-xmlid="web.assets_common_lazy" data-asset-version="c301489"></script>
+            <script defer="defer" type="text/javascript" data-src="/web/content/763-b1322e3/1/web.assets_frontend_lazy.js" data-asset-xmlid="web.assets_frontend_lazy" data-asset-version="b1322e3"></script>
+        
+    
+        
+
+                
+            
+        
+    </head>
+            <body class="">
+                
+        
+    
+            
+            
+        <div id="wrapwrap" class="   ">
+                <header id="top" data-anchor="true" data-name="Header" class="  o_header_fixed">
+                    <nav data-name="Navbar" class="navbar navbar-light navbar-expand-lg o_colored_level o_cc">
+            <div id="top_menu_container" class="container">
+                
+    <button type="button" data-toggle="collapse" data-target="#top_menu_collapse" class="navbar-toggler ">
+        <span class="navbar-toggler-icon o_not_editable"></span>
+    </button>
+
+                <div id="top_menu_collapse" class="collapse navbar-collapse o_header_centered_logo order-last order-lg-first">
+                    
+    <ul id="top_menu" class="nav navbar-nav o_menu_loading ">
+        
+                        
+                            
+    
+    <li class="nav-item">
+        <a role="menuitem" href="/home" class="nav-link ">
+            <span>Home</span>
+        </a>
+    </li>
+    
+
+                        
+                            
+    
+    <li class="nav-item">
+        <a role="menuitem" href="/reserva" class="nav-link ">
+            <span>Reserva</span>
+        </a>
+    </li>
+    
+
+                        
+                            
+    
+    <li class="nav-item">
+        <a role="menuitem" href="/shop" class="nav-link ">
+            <span>Tienda</span>
+        </a>
+    </li>
+    
+
+                        
+                            
+    
+    <li class="nav-item">
+        <a role="menuitem" href="/event" class="nav-link ">
+            <span>Eventos</span>
+        </a>
+    </li>
+    
+
+                        
+                            
+    
+    <li class="nav-item">
+        <a role="menuitem" href="/carta" class="nav-link ">
+            <span>Carta</span>
+        </a>
+    </li>
+    
+
+                        
+                    
+    </ul>
+
+                </div>
+                
+    <a href="/" class="navbar-brand logo m-0">
+            <span role="img" aria-label="Logo of Forks&amp;Folks" title="Forks&amp;Folks"><img src="/web/image/website/1/logo/Forks%26Folks?unique=3cd6994" class="img img-fluid" alt="Forks&amp;amp;Folks" loading="lazy"/></span>
+        </a>
+    
+                <ul class="nav navbar-nav o_header_centered_logo justify-content-end">
+                    
+        
+        
+        <li class="nav-item divider d-none"></li> <li class="o_wsale_my_cart  nav-item">
+            <a href="/shop/cart" class="nav-link">
+                <i class="fa fa-shopping-cart"></i>
+                
+                <sup class="my_cart_quantity badge badge-primary" data-order-id="">0</sup>
+            </a>
+        </li>
+    
+        
+            <li class="nav-item ml-3 o_no_autohide_item">
+                <a href="/web/login" class="nav-link">Identificarse</a>
+            </li>
+        
+                    
+        
+        
+            
+        
+    
+    
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+                <main>
+                    
+            
+        
+            <div class="oe_website_login_container">
+            <form class="oe_login_form" role="form" method="post" onsubmit="this.action = '/web/login' + location.hash" action="/web/login">
+                <input type="hidden" name="csrf_token" value="ed8c53088b451f7cd72208933806797fac65b2feo1669972420"/>
+
+                <div class="form-group field-db">
+                    <label for="db" class="col-form-label">Base de datos</label>
+                    <div class="input-group ">
+                        <input type="text" name="db" id="db" required="required" readonly="readonly" value="trabajodoo" class="form-control "/>
+                        <span class="input-group-append">
+                            <a role="button" href="/web/database/selector" class="btn btn-secondary">Select <i class="fa fa-database" role="img" aria-label="Base de datos" title="Base de datos"></i></a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group field-login">
+                    <label for="login">Correo electr√≥nico</label>
+                    <input type="text" placeholder="Correo electr√≥nico" name="login" id="login" required="required" autofocus="autofocus" autocapitalize="off" class="form-control "/>
+                </div>
+
+                <div class="form-group field-password">
+                    <label for="password">Contrase√±a</label>
+                    <input type="password" placeholder="Contrase√±a" name="password" id="password" required="required" autocomplete="current-password" maxlength="4096" class="form-control "/>
+                </div>
+
+                
+                
+
+                <div class="clearfix oe_login_buttons text-center mb-1 pt-3">
+                    <button type="submit" class="btn btn-primary btn-block">Iniciar sesi√≥n</button>
+                <div class="justify-content-between mt-2 d-flex small">
+                    
+                    <a href="/web/reset_password">Restablecer contrase√±a</a>
+                </div>
+            
+                    
+                    <div class="o_login_auth"></div>
+                </div>
+
+                <input type="hidden" name="redirect"/>
+            </form>
+        </div>
+        
+                </main>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8"/>
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                    <title>The Chef</title>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
+                    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+                    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&amp;family=Satisfy&amp;display=swap" rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap" rel="stylesheet"/>
+                    <link rel="stylesheet" href="/theme_the_chef/static/src/css/owl.carousel.min.css"/>
+                    <link rel="stylesheet" href="/theme_the_chef/static/src/css/owl.theme.default.min.css"/>
+                    <link rel="stylesheet" href="/theme_the_chef/static/src/css/style.css"/>
+                    <link rel="stylesheet" type="text/css" href="/theme_the_chef/static/src/css/animate.min.css"/>
+                </head>
+                <body>
+                    <section class="main_body">
+                    </section>
+                </body>
+                <script type="text/javascript" src="/theme_the_chef/static/src/js/owl.carousel.js"></script>
+                <script type="text/javascript" src="/theme_the_chef/static/src/js/custom.js"></script>
+            </html>
+        
+                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc  o_footer_slideout">
+                    <section class="main_body o_colored_level" style="">
+      <footer class="footer">
+        <div class="container-fluid">
+          <div class="footer_content">
+            <div class="row">
+              <div class="col-md-4 col-sm-12 pb-md-0 pb-lg-0 o_colored_level pb0 col-lg-4 pt0" style="">
+                <div class="wrapper">
+                  <div class="brand">
+                    <img class="d-block img-fluid mx-auto o_we_custom_image" src="/web/image/601-8ec89684/Captura%20de%20pantalla%20de%202021-11-10%2013-31-18.png" alt="" data-original-title="" title="" aria-describedby="tooltip465011" style="" data-original-id="600" data-original-src="/web/image/600-24cfc4b3/Captura%20de%20pantalla%20de%202021-11-10%2013-31-18.png" data-mimetype="image/png" data-resize-width="456" loading="lazy"/>
+                    <div class="footer_icon">
+                      <a href="#" data-original-title="" title="" aria-describedby="tooltip10023"></a>
+                      <a href="#" data-original-title="" title="" aria-describedby="tooltip813650"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 pb-5 pb-md-0 pb-lg-0 o_colored_level" style="">
+                <div class="wrapper">
+                  <h4>Horario<br/></h4>
+                  <ul class="list-unstyled open-hours">
+                    <li class="d-flex justify-content-between">
+                      <span>Lunes</span>
+                      <span>9:00 - 24:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <span>Martes</span>
+                      <span>9:00 - 24:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <span>Mi√©rcoles</span>
+                      <span>9:00 - 24:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <span>Jueves</span>
+                      <span>9:00 - 24:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <span>Viernes</span>
+                      <span>9:00 - 02:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <span>S√°bado</span>
+                      <span>9:00 - 02:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <span>Domingo</span>
+                      <span> Cerrado</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 offset-lg-1 col-md-4 col-sm-12 pb-5 pb-md-0 pb-lg-0 o_colored_level">
+                <div class="wrapper">
+                  <h4>Llamanos<br/></h4>
+                  <p>987654321<br/></p>
+                  <div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="usr" placeholder="Enter Email"/>
+                    </div>
+                  </div>
+                  <a href="/home" class="btn btn-fill-primary" data-original-title="" title="" aria-describedby="tooltip715523">Submit</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer_bottom">
+              <p>Copyright ¬© <a href="#" data-original-title="" title="" aria-describedby="tooltip93413">Forks&amp;Folks</a> All rights reserved </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  <div class="o_footer_copyright o_colored_level o_cc" data-name="Copyright">
+                        <div class="container py-3">
+                            <div class="row">
+                                <div class="col-sm text-center text-sm-left text-muted">
+                                    
+        
+    
+                                    <span class="o_footer_copyright_name mr-2">Copyright &copy; Company name</span>
+    
+    
+        
+        
+    
+        
+        
+    
+        <div class="js_language_selector  dropup">
+            <button class="btn btn-sm btn-outline-secondary border-0 dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                
+        
+    <img class="o_lang_flag" src="/base/static/img/country_flags/es.png?height=25" loading="lazy"/>
+
+    <span class="align-middle"> Espa√±ol</span>
+            </button>
+            <div class="dropdown-menu" role="menu">
+                
+                    <a class="dropdown-item js_change_lang" href="/web/login" data-url_code="en">
+                        
+        
+    <img class="o_lang_flag" src="/base/static/img/country_flags/us.png?height=25" loading="lazy"/>
+
+    <span>English (US)</span>
+                    </a>
+                
+                    <a class="dropdown-item js_change_lang" href="/web/login" data-url_code="es">
+                        
+        
+    <img class="o_lang_flag" src="/base/static/img/country_flags/es.png?height=25" loading="lazy"/>
+
+    <span> Espa√±ol</span>
+                    </a>
+                
+        
+    
+
+    
+            </div>
+        </div>
+    
+        
+                                </div>
+                                <div class="col-sm text-center text-sm-right o_not_editable">
+                                    
+        <div class="o_brand_promotion">
+            
+        
+        
+        Con tecnolog√≠a de 
+            <a target="_blank" class="badge badge-light" href="http://www.odoo.com?utm_source=db&amp;utm_medium=website">
+                <img alt="Odoo" src="/web/static/src/img/odoo_logo_tiny.png" style="height: 1em; vertical-align: baseline;" loading="lazy"/>
+            </a>
+        - 
+                    El #1 <a target="_blank" href="http://www.odoo.com/page/e-commerce?utm_source=db&amp;utm_medium=website">Comercio electr√≥nico de c√≥digo abierto</a>
+                
+    
+        </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+        
+    
+            </div>
+        
+    
+        
+        
+    </body>
+        </html>
+    
+    
+     [(t°      a®éDa®éaC±ëa®éF   M    O^partitionKey=%28http%2Clocalhost%2C8069%29,:http://localhost:8069/web/login necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.0 200 OK
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Content-Length: 19217
+Server: Werkzeug/0.16.1 Python/3.8.10
+Date: Thu, 02 Dec 2021 09:13:42 GMT
+ original-response-headers Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Set-Cookie: session_id=00d29609aff0bbed27c322f19aaa8cf487a38c29; Expires=Wed, 02-Mar-2022 09:13:42 GMT; Max-Age=7776000; HttpOnly; Path=/
+Content-Length: 19217
+Server: Werkzeug/0.16.1 Python/3.8.10
+Date: Thu, 02 Dec 2021 09:13:42 GMT
+ ctid 1 uncompressed-len 0 net-response-time-onstart 1581 net-response-time-onstop 1671   K
