@@ -11,6 +11,12 @@
 4. [Carta](#carta)
 5. [Reservar Mesa](#reservar)
 6. [Pedir Online](#prodel)
+7. [Eventos](#eventos)
+8. [Tablero](#tablero)
+9. [Agenda](#agenda)
+10. [Contactos](#contactos)
+11. [Chat interno](#chat)
+12. [Proyectos y tareas](#tareas)
 
 
 ## 1.Inicio<a name="inicio"></a> 
@@ -58,3 +64,41 @@ Finalmente, en caso de querer pedir online, se nos abrira una ventana que integr
 
 ![Imagenes](https://github.com/Miguemoliaga/forksandfolks/blob/master/img/Tienda.png)
 
+## 7.Eventos <a name="eventos"></a>
+
+Si pinchamos en eventos, podremos ver cuales son los proximos eventos disponibles, junto con su fecha. Ademas, en el caso de que el registro no haya empezado, nos lo dira.
+
+![Imagenes]()
+https://github.com/Miguemoliaga/forksandfolks/blob/master/img/Eventos.png
+
+## 8.Tablero <a name="tablero"></a>
+
+Empezamos con la gestion de la empresa con el tablero, en el cual podemos ver, de una forma rapida, las ventas y las visitas.
+
+![Imagenes](https://github.com/Miguemoliaga/forksandfolks/blob/master/img/Tablero.png)
+
+## 9.Agenda <a name="agenda"></a>
+
+Disponemos de una agenda para planificar reuniones con nuestros empleados y con nuestros contactos.
+
+![Imagenes](https://github.com/Miguemoliaga/forksandfolks/blob/master/img/Agenda.png)
+
+## 10.Contactos <a name="contactos"></a>
+
+Simplemente nuestra lista de contactos con sus datos.
+
+![Imagenes](https://github.com/Miguemoliaga/forksandfolks/blob/master/img/Contactos.png)
+
+## 11.Chat interno <a name="chat"></a>
+
+Disponemos de un chat interno para comunicarnos de una forma facil y directa con los empleados.
+
+![Imagenes](https://github.com/Miguemoliaga/forksandfolks/blob/master/img/Chat%20interno.png)
+
+## 12.Proyectos y tareas <a name="tareas"></a>
+
+Por ultimo en proyectos, podemos ver los diferentos proyectos a resolver, y dentro de estos, las diferentes tareas y sus diferentes columnas a realizar para finalizar el proyecto.
+
+![Imagenes](https://github.com/Miguemoliaga/forksandfolks/blob/master/img/Proyectos.png)
+
+![Imagenes](https://github.com/Miguemoliaga/forksandfolks/blob/master/img/Tarea.png)
